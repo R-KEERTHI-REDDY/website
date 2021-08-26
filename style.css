@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(bg.jfif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.menu {
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 125px;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffcccc;
+    font-family: Verdana;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: sticky;
+}
+
+.content .par {
+    padding-left: 255px;
+    margin-top: 40px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-family: Papyrus;
+    font-size: 30px;
+    font-weight: bold;
+    color: burlywood;
+    padding-left: 420px;
+    margin-top: 100px;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ffcccc;
+    border: none;
+    margin-top: 35px;
+    margin-left: 525px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.content h2 {
+    font-family: Arial;
+    font-size: 30px;
+    color: burlywood;
+    padding-left: 320px;
+    margin-top: 100px;
+    letter-spacing: 2px;
+}
+
+.content h3 {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 330px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.main2 {
+    background-color: #ece8ec
+}
+
+.main2 h1 {
+    font-family: Garamond;
+    font-size: 30px;
+    font-weight: bold;
+    color: #737373;
+    padding-left: 1000px;
+    margin-top: -350px;
+    letter-spacing: 2px;
+}
+
+.main2 .par2 {
+    padding-left: 750px;
+    margin-top: 40px;
+    font-family: Arial;
+    color: #737373;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.main2 h2 {
+    font-family: Garamond;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #737373;
+    padding-left: 850px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+
+.main2 h3 {
+    font-family: Garamond;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #737373;
+    padding-left: 1000px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.main2 .cn2 {
+    width: 200px;
+    height: 40px;
+    background: #ffcccc;
+    border: none;
+    margin-top: 50px;
+    margin-left: 985px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.main2 .cn2 a {
+    text-decoration: none;
+    color: #737373;
+    transition: .3s ease;
+}
+
+.main2 h4 {
+    font-family: Brush Script MT;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #737373;
+    padding-left: 500px;
+    margin-top: 150px;
+    letter-spacing: 2px;
+}
+
+.main3 {
+    background-color: #ece8ec;
+}
+
+.main3 h1 {
+    font-family: Garamond;
+    font-size: 30px;
+    font-weight: bold;
+    color: #737373;
+    padding-left: 320px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.main3 h2 {
+    font-family: Garamond;
+    font-size: 30px;
+    font-weight: bold;
+    color: #737373;
+    padding-left: 1050px;
+    margin-top: -30px;
+    letter-spacing: 2px;
+}
+
+.main3 .cn {
+    width: 160px;
+    height: 40px;
+    background: #ffcccc;
+    border: none;
+    margin-top: 100px;
+    margin-left: 670px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.main3 .cn a {
+    text-decoration: none;
+    color: #737373;
+    transition: .3s ease;
+}
+
+.main4 {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(about.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+
+.main4 h1 {
+    font-family: Garamond;
+    font-size: 70px;
+    font-weight: bold;
+    color: burlywood;
+    padding-left: 600px;
+    padding-top: 150px;
+    letter-spacing: 2px;
+}
+
+.main4 .par3 {
+    padding-left: 400px;
+    margin-top: 40px;
+    font-family: Arial;
+    color: #fff;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.liw {
+    padding-left: 1300px;
+    margin-top: 200px;
+    font-family: Arial;
+    font-size: 15px;
+    color: #000;
+}
+
+.icons i {
+    text-decoration: none;
+}
+
+.icons {
+    color: #000;
+    font-size: 30px;
+    padding-left: 1275px;
+    padding-top: 15px;
+}
